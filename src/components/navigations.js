@@ -1,10 +1,20 @@
-import React , {Component} from "react";
+import React, {Component} from "react";
+import {Link} from "react-scroll";
 
-export default class Nav extends Component{
+import "../styles/Navigation.css"
+
+export default class Nav extends Component {
     render() {
-        return(
-            <div>
-                
+        return (
+            <div className="navigation">
+                <div className="right">
+                    <Link className="navItems" to="test1" smooth={true} offset={50} duration={500}>
+                        About
+                    </Link>
+                    <Link className="navItems" to="skill" smooth={true} offset={50} duration={500}>
+                        Skills
+                    </Link>
+                </div>
             </div>
         )
     }
