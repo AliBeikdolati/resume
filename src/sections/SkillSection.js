@@ -9,7 +9,7 @@ import "../styles/SkillSection.css";
 export default class SkillSection extends Component {
     render() {
         return (
-            <Fullpage>
+            <Fullpage className="red">
                 <h1 className="title">
                     {data.sections[1].title}
                 </h1>

@@ -1,0 +1,15 @@
+.navigation{
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+
+.right {
+    text-align: right;
+    float: right;
+}
+
+.navItems {
+    margin: 5px 20px;
+    cursor: pointer;
+}

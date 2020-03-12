@@ -2,13 +2,14 @@ import React , { Component } from "react";
 import data from "../data";
 import {SocialIcon} from "react-social-icons";
 import Fullpage from "../components/Fullpage";
+import { Link, Element } from 'react-scroll';
 
 import "../styles/TitleSection.css";
 
 export default class TitleSection extends Component{
     render() {
         return (
-            <Fullpage>
+            <Fullpage className="red">
                 <div>
                     <h1 className="title">
                         {data.title}
@@ -29,6 +30,7 @@ export default class TitleSection extends Component{
                     </div>
 
                 </div>
+
             </Fullpage>
         )
     }

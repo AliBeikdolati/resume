@@ -3,4 +3,17 @@
     color: #61dafb;
 }
 
+.downIcon {
+    position: relative;
+    bottom: 45px;
+    width: 100vw;
+    height: 0;
+}
 
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
