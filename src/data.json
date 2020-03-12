@@ -1,6 +1,6 @@
 {
   "title": "Hello! I'm Ali!",
-  "subtitle": "Full Stack Dev | Open-Source Enthusiast",
+  "subtitle": "Front End Dev | Open-Source Enthusiast",
   "links": {
     "github": "https://github.com/AliBeikdolati",
     "stackoverFlow": "https://stackoverflow.com/story/alibeik2lati",
@@ -26,46 +26,153 @@
         {
           "type" : "card",
           "content" : {
-            "image" : "https://img.icons8.com/ios-filled/120/61dafb/html-5.png",
+            "image" : [
+              "https://img.icons8.com/ios-filled/120/61dafb/html-5.png",
+              "https://img.icons8.com/ios-filled/120/10ff00/html-5.png",
+              "https://img.icons8.com/ios-filled/120/ff6699/html-5.png",
+              "https://img.icons8.com/ios-filled/120/660066/html-5.png",
+              "https://img.icons8.com/ios-filled/120/000099/html-5.png",
+              "https://img.icons8.com/ios-filled/120/ffff00/html-5.png"
+            ],
             "title" : "HTML"
           }
         },
         {
           "type" : "card",
           "content" : {
-            "image" : "https://img.icons8.com/windows/120/61dafb/css3.png",
+            "image" : [
+              "https://img.icons8.com/windows/120/61dafb/css3.png",
+              "https://img.icons8.com/windows/120/10ff00/css3.png",
+              "https://img.icons8.com/windows/120/ff6699/css3.png",
+              "https://img.icons8.com/windows/120/660066/css3.png",
+              "https://img.icons8.com/windows/120/000099/css3.png",
+              "https://img.icons8.com/windows/120/ffff00/css3.png"
+            ],
             "title" : "CSS"
           }
         },
         {
           "type" : "card",
           "content" : {
-            "image" : "https://img.icons8.com/windows/120/61dafb/bootstrap.png",
+            "image" : [
+              "https://img.icons8.com/windows/120/61dafb/bootstrap.png",
+              "https://img.icons8.com/windows/120/10ff00/bootstrap.png",
+              "https://img.icons8.com/windows/120/ff6699/bootstrap.png",
+              "https://img.icons8.com/windows/120/660066/bootstrap.png",
+              "https://img.icons8.com/windows/120/000099/bootstrap.png",
+              "https://img.icons8.com/windows/120/ffff00/bootstrap.png"
+            ],
             "title" : "Bootstrap"
           }
         },
         {
           "type" : "card",
           "content" : {
-            "image" : "https://img.icons8.com/ios/120/61dafb/javascript-logo.png",
+            "image" : [
+              "https://img.icons8.com/ios/120/61dafb/javascript-logo.png",
+              "https://img.icons8.com/ios/120/10ff00/javascript-logo.png",
+              "https://img.icons8.com/ios/120/ff6699/javascript-logo.png",
+              "https://img.icons8.com/ios/120/660066/javascript-logo.png",
+              "https://img.icons8.com/ios/120/000099/javascript-logo.png",
+              "https://img.icons8.com/ios/120/ffff00/javascript-logo.png"
+            ],
             "title" : "Javascript"
           }
         },
         {
           "type" : "card",
           "content" : {
-            "image" : "https://img.icons8.com/windows/120/61dafb/vuejs.png",
+            "image" : [
+              "https://img.icons8.com/windows/120/61dafb/vuejs.png",
+              "https://img.icons8.com/windows/120/10ff00/vuejs.png",
+              "https://img.icons8.com/windows/120/ff6699/vuejs.png",
+              "https://img.icons8.com/windows/120/660066/vuejs.png",
+              "https://img.icons8.com/windows/120/000099/vuejs.png",
+              "https://img.icons8.com/windows/120/ffff00/vuejs.png"
+            ],
             "title" : "Vue"
           }
         },
         {
           "type" : "card",
           "content" : {
-            "image" : "https://img.icons8.com/ios/120/61dafb/react-native.png",
+            "image" : [
+              "https://img.icons8.com/ios/120/61dafb/react-native.png",
+              "https://img.icons8.com/ios/120/10ff00/react-native.png",
+              "https://img.icons8.com/ios/120/ff6699/react-native.png",
+              "https://img.icons8.com/ios/120/660066/react-native.png",
+              "https://img.icons8.com/ios/120/000099/react-native.png",
+              "https://img.icons8.com/ios/120/ffff00/react-native.png"
+            ],
             "title" : "React"
           }
         }
       ]
     }
-  ]
+  ],
+  "themes" : [
+    {
+      "color" : "#61dafb"
+    },
+    {
+      "color" : "#10ff00"
+    },
+    {
+      "color" : "#ff6699"
+    },
+    {
+      "color" : "#660066"
+    },
+    {
+      "color" : "#000099"
+    },
+    {
+      "color" : "#ffff00"
+    }
+  ],
+  "cardThemes" : [
+    {
+      "border" : "1px solid #61dafb"
+    },
+    {
+      "border" : "1px solid #10ff00"
+    },
+    {
+      "border" : "1px solid #ff6699"
+    },
+    {
+      "border" : "1px solid #660066"
+    },
+    {
+      "border" : "1px solid #000099"
+    },
+    {
+      "border" : "1px solid #ffff00"
+    }
+  ],
+  "effectIcon" : [
+    "https://img.icons8.com/metro/26/61dafb/chisel-tip-marker.png",
+    "https://img.icons8.com/metro/26/10ff00/chisel-tip-marker.png",
+    "https://img.icons8.com/metro/26/ff6699/chisel-tip-marker.png",
+    "https://img.icons8.com/metro/26/660066/chisel-tip-marker.png",
+    "https://img.icons8.com/metro/26/000099/chisel-tip-marker.png",
+    "https://img.icons8.com/metro/26/ffff00/chisel-tip-marker.png"
+  ],
+  "downIcon" : [
+    "https://img.icons8.com/ios-glyphs/30/61dafb/sort-down.png",
+    "https://img.icons8.com/ios-glyphs/30/10ff00/sort-down.png",
+    "https://img.icons8.com/ios-glyphs/30/ff6699/sort-down.png",
+    "https://img.icons8.com/ios-glyphs/30/660066/sort-down.png",
+    "https://img.icons8.com/ios-glyphs/30/000099/sort-down.png",
+    "https://img.icons8.com/ios-glyphs/30/ffff00/sort-down.png"
+  ],
+  "upIcon" : [
+    "https://img.icons8.com/metro/26/61dafb/sort-up.png",
+    "https://img.icons8.com/metro/26/10ff00/sort-up.png",
+    "https://img.icons8.com/metro/26/ff6699/sort-up.png",
+    "https://img.icons8.com/metro/26/660066/sort-up.png",
+    "https://img.icons8.com/metro/26/000099/sort-up.png",
+    "https://img.icons8.com/metro/26/ffff00/sort-up.png"
+  ],
+  "num" : 0
 }

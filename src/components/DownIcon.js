@@ -7,7 +7,7 @@ export default class DownIcon extends Component{
             <div className="downIcon">
                 <Element name={this.props.el || ''} className="element"/>
                 <Link to={this.props.link} smooth={true} offset={50} duration={500}>
-                    <img src="https://img.icons8.com/ios-glyphs/30/000000/sort-down.png"/>
+                    <img src={this.props.color}/>
                 </Link>
             </div>
         )

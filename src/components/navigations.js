@@ -6,9 +6,9 @@ import "../styles/Navigation.css"
 export default class Nav extends Component {
     render() {
         return (
-            <div className="navigation">
+            <div className="navs">
                 <div className="right">
-                    <Link className="navItems" to="test1" smooth={true} offset={50} duration={500}>
+                    <Link className="navItems" to="about" smooth={true} offset={50} duration={500}>
                         About
                     </Link>
                     <Link className="navItems" to="skill" smooth={true} offset={50} duration={500}>

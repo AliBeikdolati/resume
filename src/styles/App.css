@@ -1,6 +1,17 @@
 .App {
     text-align: center;
-    color: #61dafb;
+    /*color: #61dafb;*/
+}
+
+.navigation{
+    position: fixed;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.navigation .changeColor {
+    margin: 0 10px;
 }
 
 .downIcon {

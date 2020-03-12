@@ -17,7 +17,7 @@ export default class SkillSection extends Component {
                     {
                         Object.keys(data.sections[1].items).map(skill => {
                             return (
-                                <SkillCard skill={skill} />
+                                <SkillCard skill={skill} num={this.props.num} />
                             )
                         })
                     }

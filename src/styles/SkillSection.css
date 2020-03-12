@@ -10,7 +10,7 @@
 
 .cards .card:hover {
     background-color: #d6f6ff26;
-    box-shadow: 5px 5px 15px #61dafb;
+    /*box-shadow: 5px 5px 15px #61dafb;*/
     cursor: pointer;
 }
 
