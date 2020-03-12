@@ -1,0 +1,14 @@
+.fullpage {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    vertical-align: middle !important;
+    justify-content: center;
+}
+
+.fullpage .title {
+    color: #61dafb;
+    margin-bottom: 30px;
+}

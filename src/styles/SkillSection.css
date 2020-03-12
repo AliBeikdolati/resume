@@ -1,0 +1,31 @@
+.cards .card {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #61dafb;
+
+}
+
+.cards .card:hover {
+    background-color: #d6f6ff26;
+    box-shadow: 5px 5px 15px #61dafb;
+    cursor: pointer;
+}
+
+.cards .card .imgCard {
+}
+
+.cards .card .imgCard img {
+    width: 120px;
+    height: 120px;
+}
+
+.cards .card .cardName {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
