@@ -8,7 +8,7 @@ import "../styles/AboutSection.css";
 export default class AboutSection extends Component{
     render() {
         return (
-            <Fullpage className="blue">
+            <Fullpage>
                 <h1 className="title">
                     {data.sections[0].title}
                 </h1>

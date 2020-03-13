@@ -1,4 +1,5 @@
 import React , { Component } from "react";
+
 import data from "../data";
 import {SocialIcon} from "react-social-icons";
 import Fullpage from "../components/Fullpage";
@@ -8,7 +9,7 @@ import "../styles/TitleSection.css";
 export default class TitleSection extends Component{
     render() {
         return (
-            <Fullpage className="red">
+            <Fullpage>
                 <div>
                     <h1 className="title">
                         {data.title}

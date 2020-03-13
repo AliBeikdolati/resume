@@ -5,13 +5,11 @@ import AboutSection from "./sections/AboutSection";
 import SkillSection from "./sections/SkillSection";
 import Nav from "./components/navigations";
 import DownIcon from "./components/DownIcon";
-
+import {Element} from "react-scroll";
+import SnowStorm from 'react-snowstorm';
 import data from "./data"
 
 import './styles/App.css';
-import './styles/Navigation.css'
-import {Element} from "react-scroll";
-import SnowStorm from 'react-snowstorm';
 
 class App extends Component {
     render() {

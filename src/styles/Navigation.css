@@ -1,4 +1,13 @@
+.navigation{
+    position: fixed;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
 
+.navigation .changeColor {
+    margin: 0 10px;
+}
 
 .right {
     text-align: right;

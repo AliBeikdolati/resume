@@ -1,8 +1,9 @@
 import React, {Component} from "react";
-import {Link} from "react-scroll";
 
-import "../styles/Navigation.css"
+import {Link} from "react-scroll";
 import data from "../data";
+
+import "../styles/Navigation.css";
 
 export default class Nav extends Component {
     render() {
