@@ -2,7 +2,6 @@ import React , { Component } from "react";
 import data from "../data";
 import {SocialIcon} from "react-social-icons";
 import Fullpage from "../components/Fullpage";
-import { Link, Element } from 'react-scroll';
 
 import "../styles/TitleSection.css";
 

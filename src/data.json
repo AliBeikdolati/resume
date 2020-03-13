@@ -13,9 +13,11 @@
         {
           "type" : "p",
           "content" : {
-              "first" : "I love to learn.",
-              "second" : "I believe in self-learning.",
-              "third" : "When my dev senses kick-in I build presumably awesome stuff. I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to blog what I learn."
+              "first" : "I 'm Ali Beikdolati.",
+              "second" : "I'm 21 years old and I love to learn.",
+              "third" : "I believe in self-learning.",
+              "forth" : "I start programing when I was 18 years old and I start it with C , Java then I in 19 years old I start web programming and start it with HTML and CSS then I learn Bootstrap and JavaScript and I learn VueJs in this year.",
+              "address" : "I live in Dargaz and I went to Shahrood University of Technology in 1396 in Computer Software Engineering."
           }
         }
       ]

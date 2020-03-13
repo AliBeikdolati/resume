@@ -7,7 +7,7 @@ export default class DownIcon extends Component{
             <div className="downIcon">
                 <Element name={this.props.el || ''} className="element"/>
                 <Link to={this.props.link} smooth={true} offset={50} duration={500}>
-                    <img src={this.props.color}/>
+                    <img src={this.props.color} alt="up & down Icon"/>
                 </Link>
             </div>
         )

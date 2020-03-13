@@ -10,22 +10,18 @@ import data from "./data"
 
 import './styles/App.css';
 import './styles/Navigation.css'
-import {Element, Link} from "react-scroll";
+import {Element} from "react-scroll";
+import SnowStorm from 'react-snowstorm';
 
 class App extends Component {
     render() {
         let num = Math.floor(Math.random() * (data.themes.length));
         return (
-            <div className="App" style={data.themes[num]} id="ap1">
+            <div className="App" style={data.themes[num]}>
+                <SnowStorm snowColor={data.themes[num].color} followMouse="true" />
                 <Element name="top" className="element" />
-                <div className="navigation">
-                    <Nav num={num}/>
-                    <i className="changeColor" onClick={() => {
-                        window.location.reload()
-                    }}>
-                        <img src={data.effectIcon[num]}/>
-                    </i>
-                </div>
+
+                <Nav num={num} />
                 <TitleSection />
                 <DownIcon link="about" el="about" color={data.downIcon[num]} />
 
@@ -33,11 +29,7 @@ class App extends Component {
                 <DownIcon link="skill" el="skill" color={data.downIcon[num]} />
 
                 <SkillSection num={num} />
-                <div className="downIcon">
-                    <Link to="top" smooth={true} offset={50} duration={500}>
-                        <img src={data.upIcon[num]} />
-                    </Link>
-                </div>
+                <DownIcon link="top" color={data.upIcon[num]}/>
 
             </div>
         );

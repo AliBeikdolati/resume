@@ -3,8 +3,7 @@ import React , { Component } from "react";
 import Fullpage from "../components/Fullpage";
 import data from "../data";
 
-import "../styles/AboutSection.css"
-import {Link} from "react-scroll";
+import "../styles/AboutSection.css";
 
 export default class AboutSection extends Component{
     render() {
